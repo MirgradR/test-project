@@ -1,0 +1,19 @@
+.table {
+    background-color: rgb(158, 236, 236);
+    border: 1px solid #000;  
+}
+.table__element {
+    display: grid;
+    grid-template-columns: 60px 1fr 100px;
+    border-bottom: 1px solid #000;
+}
+.table__element > div {
+    padding: 10px;
+}
+.table__element-title,
+.table__element-id {
+    border-right: 1px solid #000;
+}
+.table-head {
+    background-color: rgb(171, 214, 200);  
+}

@@ -1,0 +1,21 @@
+.search-form {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(119, 143, 135, 0.226);
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.btn-pagination {
+    cursor: pointer;
+}
+.btn-pagination:focus {
+    background-color: rgba(116, 116, 112, 0.397);
+}
+.search-form__input {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+}
