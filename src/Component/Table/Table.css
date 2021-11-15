@@ -17,3 +17,10 @@
 .table-head {
     background-color: rgb(171, 214, 200);  
 }
+.table-head > div:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255); 
+}
+.table-head > div {
+    cursor: pointer;
+}
